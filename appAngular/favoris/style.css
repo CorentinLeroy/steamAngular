@@ -1,0 +1,29 @@
+
+#cssonclickswitch a {
+  display: block;
+  position: absolute;
+}
+#cssonclickswitch li {
+  display: none;
+  position: absolute;
+}
+#cssonclickswitch a span {display: none;}
+#cssonclickswitch a:active span,
+#cssonclickswitch a:focus span {
+display: block;
+position: absolute;
+top: 0;
+left: 0px;
+width: 50px;
+background:#fff;
+}
+#cssonclickswitch li span {display: none;}
+#cssonclickswitch li:active span,
+#cssonclickswitch li:focus span {
+display: block;
+position: absolute;
+top: 0;
+left: 0px;
+width: 50px;
+background:#fff;
+}
