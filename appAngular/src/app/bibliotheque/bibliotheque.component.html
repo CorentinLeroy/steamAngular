@@ -1,0 +1,21 @@
+
+
+
+
+<table>
+  <thead>
+<tr>
+  <th>name</th>
+
+  <th>cover</th>
+
+</tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let jeu of jeux; let id = index">
+      <td>{{jeu['name']}}</td>
+      <td><a routerLink="/jeux/{{id}}" ><img src="{{jeu['cover']['url']}}" alt=""></a></td>
+
+    </tr>
+  </tbody>
+</table>
