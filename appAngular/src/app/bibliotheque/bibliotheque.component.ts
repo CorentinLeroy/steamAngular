@@ -21,6 +21,7 @@ ngOnInit()
 {
 this.sub = this.route.params.subscribe(params =>{
   this.id = params['id'];
+
 })
 }
 ngOnDestroy()

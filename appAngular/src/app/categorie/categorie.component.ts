@@ -6,13 +6,14 @@ import { CategorieService } from '../categorie.service';
   styleUrls: ['./categorie.component.css']
 })
 export class CategorieComponent implements OnInit {
-
+cat;
   constructor(public _categorieService: CategorieService) {
 
   }
-  categorie = this._categorieService.getCategorie;
+  categories = this._categorieService.getCategorie;
 
   ngOnInit() {
   }
+
 
 }

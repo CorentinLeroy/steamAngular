@@ -6,7 +6,7 @@ import { JeuxService } from '../jeux.service';
 @Component({
   selector: 'app-jeux',
   templateUrl: './jeux.component.html',
-  styleUrls: ['./jeux.component.css']
+  styleUrls: ['./jeux.component.css','./coeur.jpg','./coeur2.png']
 })
 export class JeuxComponent implements OnInit, OnDestroy{
   private sub:any;
